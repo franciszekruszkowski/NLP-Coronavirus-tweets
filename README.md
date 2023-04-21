@@ -3,6 +3,8 @@
 Coronavirus Tweet Sentiment Analysis
 This repository contains a Python script for sentiment analysis on a dataset of coronavirus-related tweets. The script cleans and preprocesses the data, tokenizes and stems the words, and uses the Multinomial Naive Bayes classifier to predict the sentiment of each tweet. Additionally, it provides a word frequency plot for better understanding of the dataset.
 
+Training set accuracy obtained at 82% for 5 classes of tweets (Extremely Negative, Negative, Neutral, Positive, Extremely Positive)
+
 Features
 Reads a CSV file containing tweets related to coronavirus
 Preprocesses the tweets by converting to lowercase, removing non-alphabetic characters, URLs, and consecutive whitespaces
